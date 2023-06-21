@@ -3,6 +3,8 @@ This project is a simple project that has a search component, which will render 
 
 In the project directory, you can run:
 
+### `npm install`
+Install the dependencies for this application
 ### `npm start`
 
 Runs the app in the development mode.\
