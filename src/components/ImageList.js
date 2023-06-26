@@ -1,4 +1,5 @@
 import ImageShow from './ImageShow';
+import './ImageList.css'
 
 function ImageList({ images }) {
 
@@ -6,11 +7,8 @@ function ImageList({ images }) {
         return <ImageShow key={image.id} image={image} />
     });
     return (
-        <div>
-            <div>
-                {renderedImages}
-            </div>
-            
+        <div className='image-list'>
+            {renderedImages}            
         </div>
 
     )
